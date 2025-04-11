@@ -30,15 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -48,7 +42,11 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnProfile = new System.Windows.Forms.Button();
+            this.btnNotifikasi = new System.Windows.Forms.Button();
+            this.btnPeriod = new System.Windows.Forms.Button();
+            this.btnSkincare = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -68,96 +66,31 @@
             this.label2.Size = new System.Drawing.Size(0, 25);
             this.label2.TabIndex = 1;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 59);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(143, 101);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 23;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Perpetua", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(170, 86);
+            this.label3.Location = new System.Drawing.Point(28, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(240, 42);
             this.label3.TabIndex = 24;
             this.label3.Text = "GG! Girls Guide";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Perpetua", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label1.Location = new System.Drawing.Point(1795, 96);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 24);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "Notifications";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Perpetua Titling MT", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label4.Location = new System.Drawing.Point(1659, 96);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 25);
-            this.label4.TabIndex = 27;
-            this.label4.Text = "Profil";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(43, 70);
+            this.progressBar1.BackColor = System.Drawing.Color.RosyBrown;
+            this.progressBar1.Location = new System.Drawing.Point(-55, -1);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1981, 74);
+            this.progressBar1.Size = new System.Drawing.Size(2072, 99);
             this.progressBar1.TabIndex = 22;
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.CalendarDimensions = new System.Drawing.Size(2, 2);
-            this.monthCalendar1.Location = new System.Drawing.Point(1115, 264);
+            this.monthCalendar1.Location = new System.Drawing.Point(1283, 389);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 28;
             this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Perpetua", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(1275, 195);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(506, 60);
-            this.label5.TabIndex = 29;
-            this.label5.Text = "Track Your Period Here!";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Perpetua", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(322, 195);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(280, 60);
-            this.label6.TabIndex = 30;
-            this.label6.Text = "Skincare Tips";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // progressBar2
-            // 
-            this.progressBar2.Location = new System.Drawing.Point(43, 264);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(825, 785);
-            this.progressBar2.TabIndex = 31;
-            this.progressBar2.Click += new System.EventHandler(this.progressBar2_Click);
             // 
             // pictureBox2
             // 
@@ -260,6 +193,62 @@
             this.pictureBox12.TabIndex = 46;
             this.pictureBox12.TabStop = false;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(20, 235);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(903, 817);
+            this.groupBox1.TabIndex = 47;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // btnProfile
+            // 
+            this.btnProfile.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProfile.BackgroundImage")));
+            this.btnProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnProfile.Location = new System.Drawing.Point(1855, 10);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.Size = new System.Drawing.Size(84, 73);
+            this.btnProfile.TabIndex = 48;
+            this.btnProfile.UseVisualStyleBackColor = true;
+            this.btnProfile.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnNotifikasi
+            // 
+            this.btnNotifikasi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNotifikasi.BackgroundImage")));
+            this.btnNotifikasi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNotifikasi.Location = new System.Drawing.Point(1738, 10);
+            this.btnNotifikasi.Name = "btnNotifikasi";
+            this.btnNotifikasi.Size = new System.Drawing.Size(84, 73);
+            this.btnNotifikasi.TabIndex = 49;
+            this.btnNotifikasi.UseVisualStyleBackColor = true;
+            // 
+            // btnPeriod
+            // 
+            this.btnPeriod.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnPeriod.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPeriod.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPeriod.Location = new System.Drawing.Point(1180, 865);
+            this.btnPeriod.Name = "btnPeriod";
+            this.btnPeriod.Size = new System.Drawing.Size(631, 163);
+            this.btnPeriod.TabIndex = 50;
+            this.btnPeriod.Text = "Track Your Period Here!";
+            this.btnPeriod.UseVisualStyleBackColor = false;
+            this.btnPeriod.Click += new System.EventHandler(this.btnPeriod_Click);
+            // 
+            // btnSkincare
+            // 
+            this.btnSkincare.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnSkincare.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkincare.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSkincare.Location = new System.Drawing.Point(145, 163);
+            this.btnSkincare.Name = "btnSkincare";
+            this.btnSkincare.Size = new System.Drawing.Size(631, 114);
+            this.btnSkincare.TabIndex = 51;
+            this.btnSkincare.Text = "SkinCare Tips!!";
+            this.btnSkincare.UseVisualStyleBackColor = false;
+            this.btnSkincare.Click += new System.EventHandler(this.btnSkincare_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -268,29 +257,29 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1972, 1105);
+            this.Controls.Add(this.btnSkincare);
+            this.Controls.Add(this.btnPeriod);
+            this.Controls.Add(this.btnNotifikasi);
+            this.Controls.Add(this.btnProfile);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.progressBar2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.monthCalendar1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label2);
             this.Name = "Form4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Form4";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form4_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -307,15 +296,9 @@
 
         #endregion
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ProgressBar progressBar2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -325,5 +308,10 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnProfile;
+        private System.Windows.Forms.Button btnNotifikasi;
+        private System.Windows.Forms.Button btnPeriod;
+        private System.Windows.Forms.Button btnSkincare;
     }
 }

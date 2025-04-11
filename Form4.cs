@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace FinalProject_vispro
 {
     public partial class Form4 : Form
@@ -70,6 +71,28 @@ namespace FinalProject_vispro
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6();
+            form6.ShowDialog();
+        }
+
+        private void btnSkincare_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnPeriod_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.ShowDialog();
         }
     }
 }
